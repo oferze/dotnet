@@ -17,7 +17,7 @@ In the .NET Framework 4.7.2 and earlier versions, this checksum hashing used the
 algorithm, which caused issues on FIPS-enabled systems. Starting with the .NET Framework 4.8, 
 the algorithm used is SHA256.
 
-There shouldn't be an compatability issue with this change because the values are recalculated
+There shouldn't be an compatibility issue with this change because the values are recalculated
 each time the Workflow Runtime and SqlTrackingService is started. However, we have provided quirks to allow
 customers to revert back to usage of the legacy hashing algorithm, if necessary.
 

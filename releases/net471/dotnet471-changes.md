@@ -95,7 +95,7 @@
 
 * When serializing an object with TimeSpan property, it will write an empty element for TimeSpan property. The fix is to reliably support TimeSpan property in XmlSerializer.  [252528, System.Xml.dll, Bug]
 * Task methods now honor the Description attribute in help pages. [274351, System.ServiceModel.Web.dll, Bug]
-* Fixed an incorrect null check issue in AddressHeaderCollection. Afer the fix the actual header (addressHeader) is checked for null and not addressHeaders. [275879, System.ServiceModel.dll, Bug]
+* Fixed an incorrect null check issue in AddressHeaderCollection. After the fix the actual header (addressHeader) is checked for null and not addressHeaders. [275879, System.ServiceModel.dll, Bug]
 * Fixed reliability problem in Addressing.ReadHeader operator comparison [276385, System.ServiceModel.dll, Bug]
 * Fixed NullReferenceException in waiters null scenario.  [284926, System.ServiceModel.dll, Bug]
 * Fixed Narrator accessibility problem -  Narrator now announces ‘Configuration’ and ‘Services’ in SvcConfigEditor. [393966, SvcConfigEditor.exe, Bug]
